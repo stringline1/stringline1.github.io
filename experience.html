@@ -33,6 +33,20 @@
     <style type="text/tailwindcss">
         body {
             font-family: "Public Sans", sans-serif;
+            cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><text y="20" font-size="20">🥔</text></svg>'), auto;
+        }
+        a, button {
+            cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><text y="20" font-size="20">🥔</text></svg>'), pointer;
+        }
+        .publication-link {
+            color: #2b6cee;
+            font-weight: 500;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+        .publication-link:hover {
+            opacity: 0.7;
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -67,7 +81,7 @@
             <div class="space-y-10">
                 <div class="group">
                     <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
-                        <h3 class="text-lg font-bold text-[#0d121b] dark:text-white">Combined M.S./Ph.D. in Human-Artificial Intelligence Interaction</h3>
+                        <h3 class="text-lg font-bold text-[#0d121b] dark:text-white">Combined M.S./Ph.D. in Applied Artificial Intelligence</h3>
                         <span class="text-primary text-sm font-semibold">Mar 2024 — Present</span>
                     </div>
                     <div class="text-[#475569] dark:text-gray-400 font-medium italic mb-3">Sungkyunkwan University</div>

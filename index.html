@@ -33,8 +33,25 @@
     <style type="text/tailwindcss">
         body {
             font-family: "Public Sans", sans-serif;
+            cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><text y="20" font-size="20">🥔</text></svg>'), auto;
+        }
+        a, button {
+            cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><text y="20" font-size="20">🥔</text></svg>'), pointer;
+        }
+        .publication-link {
+            color: #2b6cee;
+            font-weight: 500;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+        .publication-link:hover {
+            opacity: 0.7;
+            text-decoration: underline;
         }
     </style>
+
+
+
 </head>
 <body class="bg-background-light dark:bg-background-dark text-[#0d121b] dark:text-gray-100 min-h-screen flex flex-col">
     <!-- 통일된 헤더 -->
