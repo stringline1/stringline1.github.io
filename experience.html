@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Experience - Alex Rivera</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2b6cee",
+                        "background-light": "#ffffff",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+    <style type="text/tailwindcss">
+        body {
+            font-family: "Public Sans", sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#0d121b] dark:text-gray-100 min-h-screen flex flex-col">
+    <!-- 통일된 헤더 -->
+    <header class="w-full max-w-5xl mx-auto px-6 py-8 flex items-center justify-between sticky top-0 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md z-50">
+        <div class="flex items-center gap-2 group cursor-pointer">
+            <div class="text-primary">
+                <span class="material-symbols-outlined text-3xl">terminal</span>
+            </div>
+            <span class="text-lg font-bold tracking-tight">Alex Rivera</span>
+        </div>
+        <nav class="flex items-center gap-8">
+            <a class="text-sm font-medium text-gray-500 hover:text-primary transition-colors duration-200" href="index.html">Home</a>
+            <a class="text-sm font-medium text-gray-500 hover:text-primary transition-colors duration-200" href="publications.html">Publications</a>
+            <a class="text-sm font-medium text-primary" href="experience.html">Experience</a>
+            <a class="bg-primary hover:bg-primary/90 text-white text-xs font-bold py-2 px-5 rounded-lg transition-all" href="index.html#contact">
+                Contact
+            </a>
+        </nav>
+    </header>
+
+    <main class="flex-1 max-w-3xl mx-auto px-6 pt-12 pb-32">
+        <div class="pb-16">
+            <h1 class="text-4xl font-bold tracking-tight text-[#0d121b] dark:text-white mb-4">Experience</h1>
+            <div class="h-1 w-12 bg-primary"></div>
+        </div>
+
+        <!-- Education Section -->
+        <section class="mb-16">
+            <h2 class="text-xs uppercase tracking-[0.2em] font-bold text-[#94a3b8] dark:text-gray-500 mb-8">Education</h2>
+            <div class="space-y-10">
+                <div class="group">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
+                        <h3 class="text-lg font-bold text-[#0d121b] dark:text-white">Ph.D. in Computer Science (Artificial Intelligence)</h3>
+                        <span class="text-primary text-sm font-semibold">2021 — Present</span>
+                    </div>
+                    <div class="text-[#475569] dark:text-gray-400 font-medium italic mb-3">Stanford University</div>
+                    <div class="pl-4 border-l border-[#e2e8f0] dark:border-gray-700 text-sm text-[#64748b] dark:text-gray-400 leading-relaxed space-y-2">
+                        <p>Research focused on generative models and neural architecture search.</p>
+                        <p><span class="font-semibold text-[#475569] dark:text-gray-300">Advisor:</span> Dr. Jane Smith • AI Research Group</p>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
+                        <h3 class="text-lg font-bold text-[#0d121b] dark:text-white">B.S. in Artificial Intelligence &amp; Mathematics</h3>
+                        <span class="text-primary text-sm font-semibold">2017 — 2021</span>
+                    </div>
+                    <div class="text-[#475569] dark:text-gray-400 font-medium italic mb-3">Massachusetts Institute of Technology</div>
+                    <div class="pl-4 border-l border-[#e2e8f0] dark:border-gray-700 text-sm text-[#64748b] dark:text-gray-400 leading-relaxed">
+                        <p>Graduated with Magna Cum Laude honors. Focus on Reinforcement Learning and Discrete Mathematics.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards & Honors Section -->
+        <section class="mb-16">
+            <h2 class="text-xs uppercase tracking-[0.2em] font-bold text-[#94a3b8] dark:text-gray-500 mb-8">Awards &amp; Honors</h2>
+            <div class="space-y-4">
+                <div class="flex items-start gap-6 py-2 border-b border-[#f8fafc] dark:border-gray-800">
+                    <span class="text-primary font-bold text-sm w-12 shrink-0">2023</span>
+                    <div>
+                        <p class="text-[#0d121b] dark:text-white font-bold text-sm">NSF Graduate Research Fellowship</p>
+                        <p class="text-[#64748b] dark:text-gray-400 text-xs">National Science Foundation</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-6 py-2 border-b border-[#f8fafc] dark:border-gray-800">
+                    <span class="text-primary font-bold text-sm w-12 shrink-0">2022</span>
+                    <div>
+                        <p class="text-[#0d121b] dark:text-white font-bold text-sm">Best Poster Award</p>
+                        <p class="text-[#64748b] dark:text-gray-400 text-xs">ICML AI for Science Workshop</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-6 py-2 border-b border-[#f8fafc] dark:border-gray-800">
+                    <span class="text-primary font-bold text-sm w-12 shrink-0">2021</span>
+                    <div>
+                        <p class="text-[#0d121b] dark:text-white font-bold text-sm">President's Medal</p>
+                        <p class="text-[#64748b] dark:text-gray-400 text-xs">MIT Academic Excellence Office</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-6 py-2">
+                    <span class="text-primary font-bold text-sm w-12 shrink-0">2020</span>
+                    <div>
+                        <p class="text-[#0d121b] dark:text-white font-bold text-sm">Dean's List (All Semesters)</p>
+                        <p class="text-[#64748b] dark:text-gray-400 text-xs">MIT School of Engineering</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Teaching Section -->
+        <section class="mb-16">
+            <h2 class="text-xs uppercase tracking-[0.2em] font-bold text-[#94a3b8] dark:text-gray-500 mb-8">Teaching</h2>
+            <div class="space-y-8">
+                <div class="flex flex-col gap-1">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-baseline">
+                        <h3 class="text-[#0d121b] dark:text-white font-bold text-sm uppercase">CS221: Artificial Intelligence: Principles and Techniques</h3>
+                        <span class="text-primary text-xs font-bold">WINTER 2023</span>
+                    </div>
+                    <p class="text-[#64748b] dark:text-gray-400 text-sm">Head Teaching Assistant</p>
+                </div>
+                <div class="flex flex-col gap-1">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-baseline">
+                        <h3 class="text-[#0d121b] dark:text-white font-bold text-sm uppercase">CS231N: Deep Learning for Computer Vision</h3>
+                        <span class="text-primary text-xs font-bold">FALL 2022</span>
+                    </div>
+                    <p class="text-[#64748b] dark:text-gray-400 text-sm">Teaching Assistant</p>
+                </div>
+                <div class="flex flex-col gap-1">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-baseline">
+                        <h3 class="text-[#0d121b] dark:text-white font-bold text-sm uppercase">Introduction to Python Programming</h3>
+                        <span class="text-primary text-xs font-bold">2020</span>
+                    </div>
+                    <p class="text-[#64748b] dark:text-gray-400 text-sm">Lab Instructor • MIT Undergraduate Lab</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="mt-8 pt-12 border-t border-[#f1f5f9] dark:border-gray-800">
+            <p class="text-[#64748b] dark:text-gray-400 text-sm italic">
+                Interested in collaboration? Feel free to reach out for research internships or academic discussions at <a class="text-primary font-semibold hover:underline" href="mailto:alex.rivera@stanford.edu">alex.rivera@stanford.edu</a>.
+            </p>
+        </div>
+    </main>
+
+    <!-- 통일된 푸터 -->
+    <footer class="w-full py-10 border-t border-gray-100 dark:border-gray-800 mt-auto">
+        <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+            <p class="text-xs text-gray-400">© 2024 Alex Rivera. Built with minimalist design in mind.</p>
+            <div class="flex gap-6">
+                <a class="text-xs text-gray-400 hover:text-primary" href="#">Privacy</a>
+                <a class="text-xs text-gray-400 hover:text-primary" href="#">Terms</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
